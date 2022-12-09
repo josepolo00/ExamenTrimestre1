@@ -1,0 +1,1 @@
+export 'package:examenjbp24/models/menu_option24.dart';
