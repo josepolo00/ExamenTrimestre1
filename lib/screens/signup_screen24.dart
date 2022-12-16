@@ -3,9 +3,10 @@ import 'package:examenjbp24/router/app_routes24.dart';
 import 'package:examenjbp24/screens/screens24.dart';
 import 'package:examenjbp24/widgets/widgets24.dart';
 
-class SigninScreen24 extends StatelessWidget {
+class SignupScreen24 extends StatelessWidget {
    
-  const SigninScreen24({Key? key}) : super(key: key);
+  const SignupScreen24({Key? key}) : super(key: key);
+  
   
  @override
   Widget build(BuildContext context) {
@@ -32,6 +33,27 @@ class SigninScreen24 extends StatelessWidget {
                 hintText: 'Usuario',
                 suffixIcon: Icons.group_outlined, 
                 formProperty: 'usuario', 
+                formValues: formValues,
+              ),
+          const SizedBox(height: 20),
+          CustomTextFormField(
+                hintText: 'Apellidos',
+                formProperty: 'apellidos', 
+                formValues: formValues,
+              ),
+          const SizedBox(height: 20),
+          CustomTextFormField(
+                hintText: 'E-mail',
+                labelText: 'Correo electrónico',
+                keyboardType: TextInputType.emailAddress,
+                formProperty: 'email', 
+                formValues: formValues,
+              ),
+          const SizedBox(height: 20),
+          CustomTextFormField(
+                hintText: 'Contraseña',
+                labelText: 'Contraseña',
+                formProperty: 'contraseña', 
                 formValues: formValues,
               ),
           const SizedBox(height: 20),

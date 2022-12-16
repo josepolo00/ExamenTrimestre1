@@ -7,9 +7,11 @@ class AppRoutes {
   static final MenuOptions = <MenuOption>[
     MenuOption(route: 'home', icon: Icons.home_max_sharp, name: 'Home Screen', screen: const HomeScreen24()),
     MenuOption(route: 'sign', icon: Icons.home_max_sharp, name: 'Sign in', screen: const SigninScreen24()),
+    MenuOption(route: 'signup', icon: Icons.home_max_sharp, name: 'Sign up', screen: const SignupScreen24()),
     MenuOption(route: 'list', icon: Icons.home_max_sharp, name: 'Listview', screen: const ListviewScreen24()),
     MenuOption(route: 'pistas', icon: Icons.home_max_sharp, name: 'Pistas', screen: const PistasScreen24()),
     MenuOption(route: 'monitores', icon: Icons.home_max_sharp, name: 'Monitores', screen: const MonitoresScreen24()),
+    
        
   ];
 

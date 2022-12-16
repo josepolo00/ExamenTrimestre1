@@ -25,9 +25,12 @@ class HomeScreen24 extends StatelessWidget {
               ),
             ),
             const SizedBox(height: 20),
-            const ElevatedButton(
-              onPressed: null,
-              child: Padding(
+            ElevatedButton(
+              onPressed: () {
+                final route = MaterialPageRoute(builder: (context) => const SignupScreen24());
+                Navigator.pushReplacement(context, route);
+              },
+              child: const Padding(
                 padding: EdgeInsets.all(19.0),
                 child: Text('Sign up', style: TextStyle(fontSize: 20)),
               ),

@@ -23,19 +23,17 @@ class ListviewScreen24 extends StatelessWidget {
         )
       ],
       ),
-      body: ListView.separated(
-        itemBuilder: (context, index) => ListTile(
-             trailing: Icon(Icons.arrow_forward_ios_outlined),
-             title: Text(options[index]),
-             onTap: () {
-               final ventana = options[index];
-               final route = MaterialPageRoute(builder: (context) => const MonitoresScreen24());
-               Navigator.pushReplacement(context, route);
-               
-             },
-           ),
-        separatorBuilder: (context, index) => const Divider(),
-        itemCount: options.length,
+      body: Column(
+        children: [
+          ListView(
+            children: const <Widget>[
+              ListTile(
+                title: Text("Pistas"),
+              ),
+            ],
+          ),
+        ],
+        
       )
     );
   }
