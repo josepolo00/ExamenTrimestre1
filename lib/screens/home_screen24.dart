@@ -21,7 +21,7 @@ class HomeScreen24 extends StatelessWidget {
               },
               child: const Padding(
                 padding: EdgeInsets.all(20.0),
-                child: Text('Sing in', style: TextStyle(fontSize: 20)),
+                child: Text('Sign in', style: TextStyle(fontSize: 20)),
               ),
             ),
             const SizedBox(height: 20),

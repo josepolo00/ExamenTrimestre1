@@ -5,13 +5,13 @@ import 'package:examenjbp24/screens/screens24.dart';
 class AppRoutes {
   static const initialRoute = 'home';
   static final MenuOptions = <MenuOption>[
-    MenuOption(route: 'home', icon: Icons.home_max_sharp, name: 'Home Screen', screen: const HomeScreen24()),
-    MenuOption(route: 'sign', icon: Icons.home_max_sharp, name: 'Sign in', screen: const SigninScreen24()),
-    MenuOption(route: 'signup', icon: Icons.home_max_sharp, name: 'Sign up', screen: const SignupScreen24()),
-    MenuOption(route: 'list', icon: Icons.home_max_sharp, name: 'Listview', screen: const ListviewScreen24()),
-    MenuOption(route: 'pistas', icon: Icons.home_max_sharp, name: 'Pistas', screen: const PistasScreen24()),
-    MenuOption(route: 'monitores', icon: Icons.home_max_sharp, name: 'Monitores', screen: const MonitoresScreen24()),
-    
+    MenuOption(route: 'home', name: 'Home Screen', screen: const HomeScreen24()),
+    MenuOption(route: 'sign', name: 'Sign in', screen: const SigninScreen24()),
+    MenuOption(route: 'signup', name: 'Sign up', screen: const SignupScreen24()),
+    MenuOption(route: 'list', name: 'Listview', screen: const ListviewScreen24()),
+    MenuOption(route: 'reservas', name: 'reservas', screen: const ReservasScreen24()),
+    MenuOption(route: 'pistas', name: 'Pistas', screen: const PistasScreen24()),
+    MenuOption(route: 'monitores', name: 'Monitores', screen: const MonitoresScreen24()),
        
   ];
 

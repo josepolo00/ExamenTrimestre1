@@ -8,7 +8,7 @@ class AppTheme {
     // Color primario
     primaryColor: Colors.green,
         
-    // Appp Theme
+    // App Theme
     appBarTheme: const AppBarTheme(
       color: Colors.green,
       elevation: 0,
